@@ -1,0 +1,63 @@
+SandBox/
+└── technova_legacy_webshop/
+    ├── app/
+    │   ├── __init__.py
+    │   ├── routes/
+    │   │   ├── __init__.py
+    │   │   ├── main.py
+    │   │   ├── products.py
+    │   │   ├── cart.py
+    │   │   └── orders.py
+    │   │
+    │   ├── services/
+    │   │   ├── __init__.py
+    │   │   ├── product_service.py
+    │   │   ├── inventory_service.py
+    │   │   ├── costumer_service.py
+    │   │   └── order_service.py
+    │   │
+    │   ├── data_access/
+    │   │   ├── __init__.py
+    │   │   ├── excel_reader.py
+    │   │   ├── excel_writer.py
+    │   │   └── txt_order_writer.py
+    │   │
+    │   ├── templates/
+    │   │   ├── base.html
+    │   │   ├── index.html
+    │   │   ├── products.html
+    │   │   ├── product_detail.html
+    │   │   ├── cart.html
+    │   │   ├── checkout.html
+    │   │   └── order_success.html
+    │   │
+    │   └── static/
+    │       ├── css/
+    │       │   └── style.css
+    │       ├── js/
+    │       │   └── main.js
+    │       └── images/
+    │
+    ├── data/
+    │   ├── excel/
+    │   │   ├── products.xlsx
+    │   │   ├── product_prices.xlsx
+    │   │   ├── inventory.xlsx
+    │   │   ├── costumers.xlsx
+    │   │   └── costumer_addresses.xlsx
+    │   │
+    │   └── orders/
+    │       └── .gitkeep
+    │
+    ├── config/
+    │   └── settings.py
+    │
+    ├── tests/
+    │   ├── test_products.py
+    │   ├── test_inventory.py
+    │   └── test_orders.py
+    │
+    ├── run.py
+    ├── requirements.txt
+    ├── README.md
+    └── .gitignore
